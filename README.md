@@ -1,5 +1,17 @@
 # NN-ML-Resources
 
+## How To Run Model
+
+Dependencies: python3, numpy, sklearn, and tensorflow
+
+Inside of a terminal, simply navigate to this directory where you'll find 'main.py'. If you want to use the existing model, run 'python main.py'. It will print out the ID's of teams that won the particular game and next to that print the ID of the team the model predicted to win. If you would like to train the model yourself you can tune different model parameters in the 'train.py' script and run 'python train.py' to train the model yourself. It will save the last trained model to be used in 'main.py'
+
+### Jupyter Notebooks
+
+If you have jupyter notebooks installed you can also call 'jupyter notebook' in the terminal and navigate to the corresponding notebook 'MM-NN.ipynb'.
+
+## General Information I've found while researching
+
 Clearing up confusion about the purpose of activation functions - [Link](https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0)
 
 Explanation of different size parameters in TF - [Link](https://stackoverflow.com/questions/44747343/keras-input-explanation-input-shape-units-batch-size-dim-etc)
