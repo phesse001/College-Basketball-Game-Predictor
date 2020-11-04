@@ -4,7 +4,11 @@
 
 Dependencies: python3, numpy, sklearn, and tensorflow
 
-Inside of a terminal, simply navigate to this directory where you'll find 'main.py'. If you want to use the existing model, run 'python main.py'. It will print out the ID's of teams that won the particular game and next to that print the ID of the team the model predicted to win. If you would like to train the model yourself you can tune different model parameters in the 'train.py' script and run 'python train.py' to train the model yourself. It will save the last trained model to be used in 'main.py'
+Inside of a terminal, simply navigate to this directory where you'll find 'main.py'. If you want to use the existing model, run 'python main.py'. 
+
+It will print out the ID's of teams that won the particular game and next to that print the ID of the team the model predicted to win. 
+
+If you would like to train the model yourself you can tune different model parameters in the 'train.py' script and run 'python train.py' to train the model yourself. It will save the last trained model to be used in 'main.py'
 
 ### Jupyter Notebooks
 
