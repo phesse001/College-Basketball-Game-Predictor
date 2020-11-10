@@ -1,0 +1,19 @@
+{
+  "data_uoa": "tensorflow-2019-cb-game-predictor",
+  "data_uid": "643aca79f7c5304c",
+  "data_alias": "tensorflow-2019-cb-game-predictor",
+  "data_name": "tensorflow-2019-cb-game-predictor",
+  "dict": {
+    "shared": "git",
+    "sync": "yes",
+    "url": "https://github.com/phesse001/nn-ml-resources",
+    "allow_writing": "yes",
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-tensorflow",
+        "repo_uoa": "ck-autotuning",
+        "repo_uoa": "ck-analytics"
+      }
+    ]
+  }
+}

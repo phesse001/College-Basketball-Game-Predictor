@@ -1,0 +1,15 @@
+{
+  "backup_data_uid": "8c991aa4afd9d85c",
+  "backup_module_uid": "f92b25ca2f1a98ae",
+  "backup_module_uoa": "model",
+  "control": {
+    "engine": "CK",
+    "iso_datetime": "2020-11-09T21:05:14.254995",
+    "version": [
+      "1",
+      "15",
+      "0"
+    ]
+  },
+  "data_name": "tf-2019-cb-model"
+}

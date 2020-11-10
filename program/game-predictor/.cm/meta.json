@@ -1,0 +1,44 @@
+{
+  "backup_data_uid": "8b9b299bca407de2",
+  "data_name": "game-predictor",
+  "no_compile": "yes",
+  "no_target_file": "yes",
+  "process_in_tmp": "yes",
+  "program": "yes",
+  "run_cmds": {
+    "default": {
+      "ignore_return_code": "no",
+      "run_time": {
+        "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ ../main.py"
+      }
+    }
+  },
+  "run_deps": {
+    "lib-python-numpy": {
+      "local": "yes",
+      "name": "NumPy Python library",
+      "sort": 60,
+      "tags": "lib,python-package,numpy"
+    },
+    "lib-tensorflow": {
+      "local": "yes",
+      "name": "TensorFlow library",
+      "no_tags": "tensorflow_cc,vstatic,source",
+      "sort": 80,
+      "tags": "lib,tensorflow"
+    },
+    "python": {
+      "local": "yes",
+      "name": "Python interpreter",
+      "sort": 5,
+      "tags": "compiler,python"
+    }
+  },
+  "run_vars": {
+  },
+  "tags": [
+    "tf",
+    "lang-python",
+    "program"
+  ]
+}
