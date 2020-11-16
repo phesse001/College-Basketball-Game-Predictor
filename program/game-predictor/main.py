@@ -80,13 +80,36 @@ for game in games:
     predictions.append(winner)
     tmp = []
 
+#extract team names from file
+ids_names = []
+with open(d_path + '/teams.txt', 'r') as f:
+    reader = csv.reader(f, delimiter=',')
+    for row in reader:
+        ids_names.append(row)
+
 num_wrong = 0
 i = 0
 size = len(actual)
+pname = None
+aname = None
+
+print("--------------------------------\n| Predicted      "
+	  "Actual        |\n--------------------------------")
+
 while(i < size):
+	#find associated name to id
+    for item in ids_names:
+	    if int(item[0]) == predictions[i]:
+		    pname = item[1]
+	    if int(item[0]) == actual[i]:
+		    aname = item[1]
     if predictions[i] != actual[i]:
-        num_wrong +=1
-    print("Predicted: " + str(predictions[i]) + " Actual: " + str(actual[i]))
+        num_wrong += 1
+    #offset formatting
+    os1 = 15 - len(pname)
+    os2 = 15 - len(aname)
+    print("|" + str(pname) + "".rjust(os1) + str(aname) + "".rjust(os2) + "|")
     i +=1
+print("--------------------------------")
 print("\nTotal number of games incorrectly predicted: " + str(num_wrong) + "\n")
 print("Percent correct: " + str(100*(size - num_wrong)/size))

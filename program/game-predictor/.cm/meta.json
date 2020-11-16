@@ -24,6 +24,8 @@
       "local": "yes",
       "name": "TensorFlow library",
       "no_tags": "tensorflow_cc,vstatic,source",
+      "version_from":[2,3,1],
+      "version_to": [2,3,1],
       "sort": 80,
       "tags": "lib,tensorflow"
     },

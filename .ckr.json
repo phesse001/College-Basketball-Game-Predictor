@@ -6,7 +6,7 @@
   "dict": {
     "shared": "git",
     "sync": "yes",
-    "url": "https://github.com/phesse001/nn-ml-resources",
+    "url": "https://github.com/phesse001/College-Basketball-Game-Predictor/tree/master",
     "allow_writing": "yes",
     "repo_deps": [
       {
